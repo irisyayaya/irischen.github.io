@@ -17,7 +17,7 @@
 	'https://connect.facebook.net/en_US/fbevents.js');
 	fbq('init', '530224608013046');
 	fbq('track', 'PageView');
-  fbq('track', 'Purchase', {panda_content_ids: 'Chicken'}, {eventID: 'testing_123'});
+  fbq('track', 'Purchase', {panda_content_ids: 'Chicken'}, {eventID: new Date().getTime();});
   //fbq('trackCustom', 'ShareDiscount', {promotion: 'share_discount_10%'});
 	</script>
 	<noscript><img height="1" width="1" style="display:none"
